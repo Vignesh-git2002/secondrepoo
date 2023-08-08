@@ -70,5 +70,64 @@ if(isset($_POST['name'])){
     </div>
 
     <script src="index.js"></script>
+
+
+    <style>*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width:80%;
+  /*  background-color: rgb(171, 142, 199);*/
+    padding: 34px;
+    margin:23px;
+    margin:auto;
+
+}
+
+.container h1,p{
+    text-align:center;
+    opacity: 0.7;
+
+}
+
+input,textarea{
+
+    width:80%; 
+    margin: 11px 0px;
+    padding:7px;
+    font-size: 16px;
+    border:2px solid black;
+    border-radius:6px;
+    outline:none;
+}
+form{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.btn{
+    color:white;
+    background-color: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius:14px;
+    cursor:pointer;
+}
+.bg{
+    width:100%;
+    position:absolute;
+    z-index:-1;
+}
+
+.submitMsg
+{
+    color:green;
+}
+  </style
 </body>
 </html>
